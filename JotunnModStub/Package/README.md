@@ -1,5 +1,5 @@
 ﻿# JotunnModStub
-Upon building for release, this README.md is copied from `ProjectRoot/Package/` into `ProjectRoot/` such that the readme is displayed when the project is viewed via github. Make sure to edit the README.md inside the package directory, and not the project root as your changes will be overwritten.
+Adds lots of buildable custom plants. Use the custom item called Shovel to place them. Still a work in progress.
 
 ## Installation (manual)
 
@@ -11,4 +11,4 @@ Upon building for release, this README.md is copied from `ProjectRoot/Package/` 
 
 
 ## Known issues
-You can find the github at:
+This is an alpha version. Only 2 people have tested it.

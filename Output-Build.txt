@@ -1,0 +1,19 @@
+﻿Build started...
+1>------ Build started: Project: CustomPlanter, Configuration: Debug Any CPU ------
+1>  Executing Jotunn Prebuild Task creating MMHOOK dlls
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_googleanalytics.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_guiutils.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_lux.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_postprocessing.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_simplemeshcombine.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_steamworks.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_sunshafts.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_utils.dll
+1>  Processing D:\SteamLibrary\steamapps\common\Valheim-modding\valheim_Data\Managed\assembly_valheim.dll
+1>  CustomPlanter -> C:\Users\Dilhan\source\repos\Wigs\JotunnModStub\bin\Debug\CustomWigs.dll
+1>  Publishing for Debug from C:\Users\Dilhan\source\repos\Wigs\JotunnModStub\bin\Debug
+1>  Updating local installation in D:\SteamLibrary\steamapps\common\Valheim-modding
+1>  Copy CustomWigs.dll to D:\SteamLibrary\steamapps\common\Valheim-modding\BepInEx\plugins\CustomWigs
+1>  Copy mono-2.0-bdwgc.dll to D:\SteamLibrary\steamapps\common\Valheim-modding\MonoBleedingEdge\EmbedRuntime
+1>  Copy Debug files for plugin CustomWigs
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
