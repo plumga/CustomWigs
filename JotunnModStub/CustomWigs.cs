@@ -20,7 +20,7 @@ namespace CustomWigs
     {
         public const string PluginGUID = "com.jotunn.CustomWigs";
         public const string PluginName = "CustomWigs";
-        public const string PluginVersion = "0.0.3";
+        public const string PluginVersion = "0.0.4";
         private AssetBundle assetwigs;
 
 
@@ -133,7 +133,7 @@ namespace CustomWigs
         private void LoadLoom()
         {
             var LoomAsset = assetwigs.LoadAsset<GameObject>("$custompiece_loom"); 
-            var Loom = new CustomPiece(LoomAsset,
+            var Loom = new CustomPiece(LoomAsset, fixReference: true,
                 new PieceConfig
                 {
                     PieceTable = "_HammerPieceTable",
@@ -150,7 +150,7 @@ namespace CustomWigs
         private void LoadLoomext1()
         {
             var extension1 = assetwigs.LoadAsset<GameObject>("$custompiece_loom_ext1");
-            var ext1 = new CustomPiece(extension1,
+            var ext1 = new CustomPiece(extension1, fixReference: true,
                 new PieceConfig
                 {
                     CraftingStation = "piece_workbench",
@@ -170,7 +170,7 @@ namespace CustomWigs
         private void LoadLoomext2()
         {
             var extension2 = assetwigs.LoadAsset<GameObject>("$custompiece_loom_ext2");
-            var ext2 = new CustomPiece(extension2,
+            var ext2 = new CustomPiece(extension2, fixReference: true,
                 new PieceConfig
                 {
                     CraftingStation = "piece_workbench",
@@ -191,7 +191,7 @@ namespace CustomWigs
         private void LoadLoomext3()
         {
             var extension3 = assetwigs.LoadAsset<GameObject>("$custompiece_loom_ext3");
-            var ext3 = new CustomPiece(extension3,
+            var ext3 = new CustomPiece(extension3, fixReference: true,
                 new PieceConfig
                 {
                     CraftingStation = "piece_workbench",
